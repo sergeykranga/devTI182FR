@@ -21,7 +21,7 @@ $(document).ready(function(){
  
                     $.ajax({
                         url: "http://localhost/api/car/delete.php",
-                        type : "POST",
+                        type : "DELETE",
                         dataType : 'json',
                         data : JSON.stringify({ id: car_id }),
                         success : function(result) {

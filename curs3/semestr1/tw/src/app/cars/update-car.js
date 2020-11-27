@@ -87,7 +87,7 @@ $(document).ready(function(){
 
         $.ajax({
             url: "http://localhost/api/car/update.php",
-            type : "POST",
+            type : "PUT",
             contentType : 'application/json',
             data : form_data,
             success : function(result) {

@@ -1,0 +1,1 @@
+<?php echo '<p>vhost example page</p>'; ?>

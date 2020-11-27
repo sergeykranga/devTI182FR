@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+    mysql:
+        build:
+          context: ./mysql
+        environment:
+            MYSQL_DATABASE: api_db
+            MYSQL_ROOT_PASSWORD: password
+    apache:
+        build:
+          context: .
+        ports:
+            - 80:80
+            - 8080:8080
+        volumes:
+            - "./src:/var/www/html"
+            - "./vhostexample:/var/www/vhostexample"

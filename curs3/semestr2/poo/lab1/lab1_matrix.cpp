@@ -1,5 +1,3 @@
-// https://github.com/akalicki/Matrix/blob/master/dist/Matrix.cpp
-
 #include <iostream>
 using namespace std;
 

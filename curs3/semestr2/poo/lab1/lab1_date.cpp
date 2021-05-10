@@ -106,7 +106,7 @@ int main()
     cout << "Enter a day (between 1 - 31):" << endl;
     cin >> day;
 
-    cout << "Please enter a day (between 1 - 12):" << endl;
+    cout << "Please enter a month (between 1 - 12):" << endl;
     cin >> month;
 
     cout << "Please enter a year (non-negative):" << endl;
